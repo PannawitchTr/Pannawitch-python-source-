@@ -31,3 +31,4 @@ Use exchange rate: 1 USD = 35.5 THB
 Display result with 2 decimal places
 Show the calculation formula used
 """
+
