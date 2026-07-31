@@ -26,7 +26,7 @@ print("Your text have", count, "vowels")
 """
 #วิธีที่ 2 for loop
 name = input("What is your name?: ")
-vowels = [a, e, i, o, u]
+
 lower_name = name.lower # if don't want to write upper vowels
 for letter in name:
     if letter == 'a' or letter == 'A':
