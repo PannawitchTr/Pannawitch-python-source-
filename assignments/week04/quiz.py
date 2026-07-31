@@ -55,7 +55,7 @@ def number_operations():
     
     # Display original list
     print(f"Original numbers: {numbers}")
-    
+    '''
     # Create filtered lists
     even_numbers = # Your code here
     odd_numbers = # Your code here
@@ -68,6 +68,6 @@ def number_operations():
     
     # Display results
     # Your code here
-
+    '''
 if __name__ == "__main__":
     number_operations()
