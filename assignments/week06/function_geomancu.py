@@ -1,12 +1,10 @@
-def create_user_profile(username, age=18, premium=False):
-    # Your Problem 3 solution
-    status = "Standard user"
+def calculate_triangle_area(height, base):
+    """Calculates and displays triangle area"""
+    area = 0.5 * height * base
+    print(f"triangle with height {height} and base {base}")
+    print(f"Area = 1/2 x {height} × {base} = {area}")
+    print()
 
-    if premium == True:
-        status = "Premium user"
-
-    return f"{username} age: {age} - {status}"
-
-print(create_user_profile("Boonchoo", 40))
-print(create_user_profile("Manee"))
-print(create_user_profile("Piti", 23, True))
+print("Calculating triangle areas:")
+calculate_triangle_area(5, 3)
+calculate_triangle_area(10, 7)
