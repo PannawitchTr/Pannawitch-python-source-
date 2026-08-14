@@ -20,10 +20,10 @@ def convert_currency(convert_to, currency):
         convert = currency * 32
         print(f"{currency} USD = {convert:.2f} THB")
     elif convert_to == "3":
-        convert = currency / 22
+        convert = (currency/22) * 100
         print(f"{currency} THB = {convert:.2f} JPY")
-    elif convert_to == "2":
-        convert = currency * 22
+    elif convert_to == "4":
+        convert = (currency/100) * 22
         print(f"{currency} JPY = {convert:.2f} THB")
     else:
         print("Invalid")
