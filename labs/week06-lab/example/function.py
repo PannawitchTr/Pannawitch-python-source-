@@ -21,7 +21,7 @@ print()
 # Example 2: Function that performs a task
 def draw_separator():
     """Draws a line separator"""
-    print("-" * 40)
+    print("-" * 40) #str can only * with int
 
 draw_separator()
 print("This is between separators")
