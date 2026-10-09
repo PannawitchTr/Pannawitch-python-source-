@@ -37,9 +37,9 @@ class BankAccount:
         else:
             return "No transactions yet"
 
-# Example usage
+# Example usage การสร้างวัสถุจากคลาส
 account = BankAccount("John Doe", 1000)
-print(account.get_balance())
+print(account.get_balance()) # . เรียกว่า dot operator
 print(account.deposit(500))
 print(account.withdraw(200))
 print("\nTransaction History:")

@@ -2,7 +2,7 @@ class BankAccount:
     
     def __init__(self, account_number, initial_balance=0):
         self.account_number = account_number
-        self.__balance = initial_balance  # Private attribute
+        self.__balance = initial_balance  # Private attribute #เขียน .__ จะเป็นข้อมูลซ่อนไม่ให้เห็น
         self.__transaction_history = []   # Private attribute
     
     # Public method to access private balance
