@@ -21,7 +21,11 @@ print()
 # Example 2: Function that performs a task
 def draw_separator():
     """Draws a line separator"""
+<<<<<<< HEAD
     print("-" * 40) #str can only * with int
+=======
+    print("-" * 40)
+>>>>>>> upstream/main
 
 draw_separator()
 print("This is between separators")
