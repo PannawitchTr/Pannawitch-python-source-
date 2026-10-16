@@ -22,4 +22,26 @@ Highest: 28 C
 Lowest: 19 C
 
 """
-    
+
+def get_temperatures():
+    temps = [37, 38, 30, 29, 40, 25, 33]#list
+    return temps
+
+def analyze_temps(temp_list):
+    average = sum(temps) / 7
+    high = max(temps)
+    low = min(temps)
+
+    return (average, high, low)#tuple
+
+def display_analysis(avg, high, low):#ในวงเล็บเป็นคนละตัวกับใน temps เพราะมันเป็น local ใช้กับช่องเดียวกันเท่านั้น
+    print("Temperature Analysis for the Week:")
+    print("Average: %.1f"% avg)#altway print(f"Average: {avg}")
+    print("highest: %.1f"% high)
+    print("Lowest: %.1f"% low)
+
+temps = get_temperatures()
+print(temps)
+result = analyze_temps(temps)
+print(result)
+display_analysis(result[0], result[1], result[2])
